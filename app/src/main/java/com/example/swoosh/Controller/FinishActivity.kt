@@ -1,12 +1,13 @@
-package com.example.swoosh
+package com.example.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.swoosh.R
 
-class SkillActivity : AppCompatActivity() {
+class FinishActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_skill)
+        setContentView(R.layout.activity_finish)
     }
 }
