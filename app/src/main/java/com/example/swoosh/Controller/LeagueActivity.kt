@@ -19,20 +19,20 @@ class LeagueActivity : BaseActivity() {
 
     }
     fun onMensLeagueClicked(view: View){
-        womensLeagueBtn.isChecked = false;
+        womensLeagueBtn.isChecked = false
         coedLeagueBtn.isChecked = false;
 
         selectedLeague = "mens"
     }
     fun onWomensLeagueClicked(view: View){
-        mensLeagueBtn.isChecked = false;
-        coedLeagueBtn.isChecked = false;
+        mensLeagueBtn.isChecked = false
+        coedLeagueBtn.isChecked = false
 
         selectedLeague = "womens"
     }
     fun onCoedLeagueClicked(view: View){
-        mensLeagueBtn.isChecked = false;
-        womensLeagueBtn.isChecked = false;
+        mensLeagueBtn.isChecked = false
+        womensLeagueBtn.isChecked = false
 
         selectedLeague = "co-ed"
     }
